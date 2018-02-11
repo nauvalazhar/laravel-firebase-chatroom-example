@@ -1,0 +1,96 @@
+.wrapper {
+	max-width: 100%;
+	width: 550px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.chat-item {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.chat-item.info {
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.chat-item.info .chat-text {
+	padding: 5px 15px;
+	color: #fff;
+	background-color: #007bff;
+}
+
+.chat-item .chat-name {
+	font-size: 12px;
+	margin-bottom: 3px;
+	font-weight: 600;
+}
+
+.chat-item .chat-text {
+	background-color: #f9f9f9;
+	padding: 10px 20px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+.chat-item .chat-time {
+	font-size: 10px;
+	color: #999;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.card {
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+	position: relative;
+}
+.card.card-progress:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .7);
+}
+.card, .card-header, .card-footer {
+	border-color: #f2f2f2;
+}
+.card-header {
+	background-color: #fff;
+}
+.card-header .title {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	line-height: 22px;
+}
+.card-header .users {
+	color: #666;
+	font-size: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.card-footer {
+	background-color: #fff;
+	padding: 0;
+}
+.card-footer .form-control {
+	padding: 15px 20px;
+	font-size: 14px;
+	border-radius: 0;
+	border-color: transparent;
+	box-shadow: none;
+}
+.card-footer .btn {
+	height: 54px;
+	border-radius: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
