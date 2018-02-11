@@ -9,15 +9,25 @@ This is a project experiment to create a chatroom app with Laravel 5.6 and Fireb
 
 ### Installation
 - Clone this repository
+```
+ git clone https://github.com/nauvalazhar/laravel-firebase-chatroom-example.git
+```
 - Run these commands
-```bash
+```
+cd laravel-firebase-chatroom-example
 composer install
+
+# create .env file
+cp .env.example .env
+
+# migrate database
 php artisan key:generate
 
 # Set your database connection in .env file
-php artisan migrates
+php artisan migrate
 ```
-- Open the `config/services.php` file and see the [instructions here](https://github.com/mpociot/laravel-firebase-sync#configuration)
+- Go to the [Firebase Console](https://console.firebase.google.com) and create a new project
+- Open the `config/services.php` file and adjust the details of your firebase project or see the [instructions here](https://github.com/mpociot/laravel-firebase-sync#configuration)
 - Done
 
 ### License
