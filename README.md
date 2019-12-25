@@ -7,9 +7,6 @@ This is a project experiment to create a chatroom app with Laravel 5.6 and Fireb
 - Laravel 5.6
 - Laravel Firebase Sync by [@mpociot](https://github.com/mpociot)
 
-### Demo
-[Hit me!](http://chatroom.multinity.com/)
-
 ### Installation
 - Clone this repository
 ```
